@@ -1,0 +1,21 @@
+defaults:
+  appium_server: http://127.0.0.1:4723
+  timeout: 10
+  poll_interval: 0.5
+  artifacts_dir: artifacts
+
+apps:
+  settings:
+    kind: app
+    android:
+      package: com.android.settings
+      activity: .Settings
+    envs:
+      test: {}
+
+  browser:
+    kind: app
+    android:
+      package: com.heytap.browser
+    envs:
+      test: {}

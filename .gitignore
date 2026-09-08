@@ -1,0 +1,9 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+artifacts/
+allure-results/
+appium.log
+ui_*.xml
+.pytest_cache/
